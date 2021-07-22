@@ -177,11 +177,11 @@
             if (ValidURL(url1)) {
                 var url2 = encodeURI(url1);
                 $.ajax({
-                    url: 'https://script.google.com/macros/s/AKfycbwdi7qjN8rtqmQOexAbnMDYwHwipT8XLrMmu8k--ah1KfuysFMjWqmyhYHMGJMJydFU/exec?type=69&url=' + url2,
+                    url: 'https://script.google.com/macros/s/AKfycbwVrn1tIHGTisrTn3LknaYB1nKRY3T5tmppRT5B42fhDDybehaZCzXkuRTai9LpAoLX/exec?type=69&url=' + url2,
                     type: 'GET',
                     success: function(resp){
                         if ((resp.length > 4) && (resp.length < 9)) {
-                            $('#urlneedShort').val('https://stugroup.github.io/redirecturl/?i=' + resp);
+                            $('#urlneedShort').val('https://gnahtcouq.github.io/projects/redirecturl/?i=' + resp);
                             $('#urlneedShort').attr('readonly', 'readonly');
                         } else {
                             $('#urlneedShort').val('ERROR');
