@@ -5,8 +5,8 @@ function postToGoogle() {
 	var mess = $("#messField").val();
 
 	$.ajax({
-		url: "https://docs.google.com/forms/d/e/1FAIpQLSewuOZr0deyFAagCMWyTvZxJ8oWWwyQ-hXiuGyYe7zYCb9S8Q/formResponse?",
-		data: {"entry.896447091": name, "emailAddress": email, "entry.1996542779": mess},
+		url: "https://docs.google.com/forms/d/e/1FAIpQLSdS6_aToly-sFjX5yOJ7ih-PoO_DffUorN2eiF_uf-U0qym3g/formResponse?",
+		data: {"entry.1158309845": name, "emailAddress": email, "entry.211151452": mess},
 		type: "POST",
 		dataType: "jsonp",
 		success: function(d)
