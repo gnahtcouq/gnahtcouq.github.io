@@ -6,7 +6,7 @@ function postToGoogle() {
 
 	$.ajax({
 		url: "https://docs.google.com/forms/d/e/1FAIpQLSeB5bi_fdazbbikDELKuWHoNdP-CrqT91ncghlc3NNnx9hq5w/formResponse?",
-		data: {"entry.493418627": name, "emailAddress": email, "entry.864621645": mess},
+		data: {"entry.896447091": name, "emailAddress": email, "entry.1996542779": mess},
 		type: "POST",
 		dataType: "jsonp",
 		success: function(d)
